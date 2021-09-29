@@ -1,0 +1,17 @@
+.ab_bag{
+    background-color: rgb(207, 134, 39);
+    border-radius: 10px;
+    padding:20px;
+    margin-top: 150px;
+}
+.ab_txt{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.about{
+    color: rgb(46, 36, 36);
+}
+.contact{
+    color:rgb(61, 50, 50);
+}

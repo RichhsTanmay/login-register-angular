@@ -1,0 +1,17 @@
+<div class="col-sm-6">
+  <form [formGroup]="loginform" (ngSubmit)="logindata()">
+    <div class=" mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" ngModel class="form-control"  formControlName="email" placeholder="Enter Email">
+
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" ngModel class="form-control"  formControlName="password" placeholder="Enter password">
+    </div>
+
+    <button type="submit" class="btn btn-primary">LOGIN</button>
+    <button type="submit" class="btn btn-primary btn1" (click)=" gotoregister()">SIGNUP</button>
+  </form>
+  <span>{{msg}}</span>
+</div>

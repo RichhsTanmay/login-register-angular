@@ -1,0 +1,14 @@
+.ab_bag{
+    background-color: rgb(85, 95, 59);
+    border-radius: 10px;
+    padding:20px;
+    margin-top: 150px;
+}
+.ab_txt{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.about{
+    color: rgb(20, 17, 17);
+}

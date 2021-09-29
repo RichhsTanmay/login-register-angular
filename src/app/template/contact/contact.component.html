@@ -1,0 +1,22 @@
+<h2 class="text-center contact">CONTACT US !</h2>
+<div class="col-sm-6">
+    <form  #userform="ngForm" (ngSubmit)="onSubmit(userform.value)">
+        <label class="">Full Name:</label><br>
+        <input class="form-control" type="text" required #name="ngModel" placeholder="NAME" name="name" ngModel>
+        <span  *ngIf="name.invalid && name.touched">Name Field is required</span>
+        <br>
+        
+        <label class="">Gender:</label><br>
+        <input class="form-control" type="text" placeholder="MALE/FEMALE/OTHERS" name="gender" ngModel>
+        <br>
+        
+        <label class="">Age:</label><br>
+        <input class="form-control" type="text" placeholder="Age" name="age" ngModel>
+        <br>
+        
+        <label class="">Address:</label><br>
+        <input class="form-control" type="text" placeholder="ADRESS" name="adress" ngModel>
+        <br>
+        <button class="btn btn-primary">SUBMIT DETAILS</button>
+    </form>
+</div>
